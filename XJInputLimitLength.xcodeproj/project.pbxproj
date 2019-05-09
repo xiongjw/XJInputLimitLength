@@ -13,6 +13,9 @@
 		0400718B2284089800A7F57D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0400718A2284089800A7F57D /* Assets.xcassets */; };
 		0400718E2284089800A7F57D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400718C2284089800A7F57D /* LaunchScreen.storyboard */; };
 		040071912284089800A7F57D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040071902284089800A7F57D /* main.m */; };
+		0400719E2284095A00A7F57D /* XJInputUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400719A2284095A00A7F57D /* XJInputUtil.m */; };
+		0400719F2284095A00A7F57D /* XJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400719B2284095A00A7F57D /* XJTextField.m */; };
+		040071A02284095A00A7F57D /* XJTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400719C2284095A00A7F57D /* XJTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		0400718D2284089800A7F57D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0400718F2284089800A7F57D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		040071902284089800A7F57D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040071982284095A00A7F57D /* XJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTextField.h; sourceTree = "<group>"; };
+		040071992284095A00A7F57D /* XJTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJTextView.h; sourceTree = "<group>"; };
+		0400719A2284095A00A7F57D /* XJInputUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJInputUtil.m; sourceTree = "<group>"; };
+		0400719B2284095A00A7F57D /* XJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTextField.m; sourceTree = "<group>"; };
+		0400719C2284095A00A7F57D /* XJTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJTextView.m; sourceTree = "<group>"; };
+		0400719D2284095A00A7F57D /* XJInputUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJInputUtil.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 				040071822284089700A7F57D /* AppDelegate.m */,
 				040071842284089700A7F57D /* ViewController.h */,
 				040071852284089700A7F57D /* ViewController.m */,
+				040071972284095A00A7F57D /* TextInput */,
 				040071872284089700A7F57D /* Main.storyboard */,
 				0400718A2284089800A7F57D /* Assets.xcassets */,
 				0400718C2284089800A7F57D /* LaunchScreen.storyboard */,
@@ -69,6 +79,19 @@
 				040071902284089800A7F57D /* main.m */,
 			);
 			path = XJInputLimitLength;
+			sourceTree = "<group>";
+		};
+		040071972284095A00A7F57D /* TextInput */ = {
+			isa = PBXGroup;
+			children = (
+				040071982284095A00A7F57D /* XJTextField.h */,
+				0400719B2284095A00A7F57D /* XJTextField.m */,
+				040071992284095A00A7F57D /* XJTextView.h */,
+				0400719C2284095A00A7F57D /* XJTextView.m */,
+				0400719D2284095A00A7F57D /* XJInputUtil.h */,
+				0400719A2284095A00A7F57D /* XJInputUtil.m */,
+			);
+			path = TextInput;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400719E2284095A00A7F57D /* XJInputUtil.m in Sources */,
 				040071862284089700A7F57D /* ViewController.m in Sources */,
 				040071912284089800A7F57D /* main.m in Sources */,
 				040071832284089700A7F57D /* AppDelegate.m in Sources */,
+				0400719F2284095A00A7F57D /* XJTextField.m in Sources */,
+				040071A02284095A00A7F57D /* XJTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
